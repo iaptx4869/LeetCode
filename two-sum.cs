@@ -7,7 +7,7 @@ public class Solution {
             int x = nums[i];
             if (ht.ContainsKey(target - x))
             {
-                return new int[] { (int)ht[target - x] + 1, i + 1 };
+                return new int[] { (int)ht[target - x] , i };
             }
             if (!ht.ContainsKey(x))
             {
