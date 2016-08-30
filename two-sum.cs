@@ -1,17 +1,17 @@
 public class Solution {
     public int[] TwoSum(int[] nums, int target) 
     {
-        var hasttable = new Hashtable();
+        var ht = new Hashtable();
         for (var i = 0; i < nums.Length; i++)
         {
             int x = nums[i];
-            if (hasttable.ContainsKey(target - x))
+            if (ht.ContainsKey(target - x))
             {
-                return new int[] { (int)hasttable[target - x] + 1, i + 1 };
+                return new int[] { (int)ht[target - x] + 1, i + 1 };
             }
-            if (!hasttable.ContainsKey(x))
+            if (!ht.ContainsKey(x))
             {
-                hasttable.Add(x, i);
+                ht.Add(x, i);
             }
         }
         return new int[] { 0, 0 };
