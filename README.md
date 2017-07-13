@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode-CSharp
+LeetCode Algorithms Solutions (JavaScript Java C#)
