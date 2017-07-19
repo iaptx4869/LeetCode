@@ -3,6 +3,6 @@ public class KeyboardRow {
         String[] input = { "Hello", "Alaska", "Dad", "Peace" };
         String[] output = new Solution().findWords(input);
         for (String i : output)
-            System.out.println(i);
+            System.out.print(i + " ");
     }
 }

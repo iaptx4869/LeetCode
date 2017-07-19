@@ -4,7 +4,7 @@ public class Solution {
     }
 }
 
-public class Solution {
+class Solution1 {
     public int hammingDistance(int x, int y) {
         int Distance = 0;
         while (x != 0 || y != 0) {
