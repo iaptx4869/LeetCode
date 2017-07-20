@@ -12,7 +12,7 @@ public class MergeTwoBinaryTrees {
         Tree2.right.right = new TreeNode(7);
 
         TreeNode mergedTree = new Solution().mergeTrees(Tree1, Tree2);
-        System.out.print(mergedTree.val);
+        System.out.print(mergedTree);
 
     }
 }

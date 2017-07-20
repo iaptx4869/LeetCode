@@ -7,7 +7,6 @@ Given a List of words, return the words that can be typed using letters of **alp
 ```
 Input: ["Hello", "Alaska", "Dad", "Peace"]
 Output: ["Alaska", "Dad"]
-
 ```
 
 **Note:**
